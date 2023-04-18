@@ -124,7 +124,7 @@ function diplayJoke(joke) {
 
 function tellMe(joke) {
   VoiceRSS.speech({
-    key: ${{ secrets.API_KEY }},
+    key: API_KEY,
     src: joke,
     hl: "en-us",
     v: "Linda",
